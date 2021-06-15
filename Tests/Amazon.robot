@@ -17,7 +17,7 @@ Should be able to login
     AmazonApp.Login  ${LOGIN_EMAIL}  ${LOGIN_PASSWORD}
 
 Logged out user should be able to search for products
-     [Tags]    Current
+     [Tags]    Current    Products
      AmazonApp.Search for Products
 
 Logged out user should be able to view a products
